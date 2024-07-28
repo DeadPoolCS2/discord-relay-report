@@ -1,0 +1,8 @@
+{
+  "enableChatsync": true,
+  "enableReport": true,
+  "webhookChatync": "",
+  "webhookReport": "",
+  "imageReport": "",
+  "discordMessage": "We just recived a new report of a suspect"
+}
