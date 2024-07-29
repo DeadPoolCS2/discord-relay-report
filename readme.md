@@ -48,6 +48,9 @@ with your configuration
 - `webhookReport:` The URL of the Discord webhook where player reports will be sent.
 - `imageReport:` (Optional) The URL of an image to include in the report messages.
 - `discordMessage:` The default message content for the report notifications.
+## Usage
+
+- Report: `!report <playername> <reason>`
 
 ## Special Thanks
 
