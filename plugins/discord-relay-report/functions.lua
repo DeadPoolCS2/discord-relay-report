@@ -1,16 +1,3 @@
-function reportPlayer(suspectid, playerid)
-    local suspect = GetPlayer(suspectid)
-    local player = GetPlayer(playerid)
-
-    if not player or player:IsFakeClient() then
-        return
-    end
-    if not suspect or suspect:IsFakeClient() then
-        return
-    end
-end
-
-
 function findSuspectByName(suspectName, reason, playerid)
     local webhook = config:Fetch("discord-relay-report.config.webhookReport")
     local author = GetPlayer(playerid)
@@ -62,3 +49,26 @@ function findSuspectByName(suspectName, reason, playerid)
         author:SendMsg(3,FetchTranslation("discord-relay-report.prefix") .. FetchTranslation("discord-relay-report.suspect_notfound"))
     end
 end
+
+function getCountryByIP(ipaddress, callback)
+    local function cb(status, body, headers, err)
+        if err and status ~= 200 then
+            callback(nil, err)
+            return
+        end
+
+        local jsonBody = json.decode(body)
+        if jsonBody and jsonBody.country then
+            callback(jsonBody.country, nil)
+        else
+            callback(nil, "Failed to get country from response")
+        end
+    end
+
+    local url = "https://api.country.is/" .. ipaddress
+    local content = {}
+    local headers = {}
+
+    PerformHTTPRequest(url, cb, "GET", content, headers)
+end
+

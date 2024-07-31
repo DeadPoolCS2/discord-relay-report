@@ -1,7 +1,8 @@
 {
   "enableChatsync": true,
   "enableReport": true,
-  "webhookChatync": "",
+  "enableCountryDetect": true,
+  "webhookChatync": "https://discord.com/api/webhooks/1267072931020804139/wdVG6U00ngny97tXLYZLFo-DfiAoqVMe26Ttj1pxj897k1Lgjj_7anK8xNF8pPgcpXtQ",
   "webhookReport": "",
   "imageReport": "",
   "discordMessage": "We just recived a new report of a suspect"

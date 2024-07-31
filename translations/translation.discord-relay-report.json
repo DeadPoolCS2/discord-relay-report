@@ -44,6 +44,11 @@
     "en": "Player was successfully reported",
     "ro": "Jucătorul a fost raportat cu succes"
   },
+  "report_deactivated": {
+    "de": "Report Funktion ist derzeit deaktiviert",
+    "en": "Report function is currently deactivated",
+    "ro": "Funcția de raportare este dezactivată în prezent"
+  },
   "authorSended": {
     "de": "hat einen Spieler gemeldet",
     "en": "has reported a player",
