@@ -1,58 +1,72 @@
 {
   "prefix": {
     "de": "[{GREEN}DISCORD R&R{DEFAULT}] ",
-    "en": "[{GREEN}DISCORD R&R{DEFAULT}] "
+    "en": "[{GREEN}DISCORD R&R{DEFAULT}] ",
+    "ro": "[{GREEN}DISCORD R&R{DEFAULT}] "
   },
   "syntax": {
     "de": "Verwende diese Syntax: !report <Spielername> <Grund>",
-    "en": "Use this syntax: !report <playername> <reason>"
+    "en": "Use this syntax: !report <playername> <reason>",
+    "ro": "Utilizați această sintaxă: !report <numejucător> <motiv>"
   },
   "suspect_steamid": {
     "de": "Gemeldete SteamID: ",
-    "en": "Reported SteamID: "
+    "en": "Reported SteamID: ",
+    "ro": "SteamID raportat: "
   },
   "suspect_ip": {
     "de": "Gemeldete IP-Adresse: ",
-    "en": "Reported IP Address: "
+    "en": "Reported IP Address: ",
+    "ro": "Adresa IP raportată: "
   },
   "plugin_notworking": {
     "de": "Derzeit liegt ein Problem mit dem Plugin vor. Bitte wende dich an den Admin",
-    "en": "There is currently a problem with the plugin. Please contact the admin"
+    "en": "There is currently a problem with the plugin. Please contact the admin",
+    "ro": "În prezent există o problemă cu pluginul. Vă rugăm să contactați administratorul"
   },
   "author_steamid": {
     "de": "Autor SteamID: ",
-    "en": "Author SteamID: "
+    "en": "Author SteamID: ",
+    "ro": "SteamID autor: "
   },
   "author_ip": {
     "de": "Autor IP-Adresse: ",
-    "en": "Author IP Address: "
+    "en": "Author IP Address: ",
+    "ro": "Adresă IP autor: "
   },
   "error": {
     "de": "Kann in der Config {CONFIG} nicht finden. Bitte trage dies in die Config ein",
-    "en": "Cannot find {CONFIG} in the config. Please add it to the config"
+    "en": "Cannot find {CONFIG} in the config. Please add it to the config",
+    "ro": "Nu se găsește {CONFIG} în configurație. Vă rugăm să-l adăugați la configurație"
   },
   "reportSend": {
     "de": "Spieler wurde erfolgreich gemeldet",
-    "en": "Player was successfully reported"
+    "en": "Player was successfully reported",
+    "ro": "Jucătorul a fost raportat cu succes"
   },
   "authorSended": {
     "de": "hat einen Spieler gemeldet",
-    "en": "has reported a player"
+    "en": "has reported a player",
+    "ro": "a raportat un jucător"
   },
   "reportedPlayer": {
     "de": "Gemeldeter Spieler: ",
-    "en": "Reported Player: "
+    "en": "Reported Player: ",
+    "ro": "Jucător raportat: "
   },
   "reason": {
     "de": "Grund: ",
-    "en": "Reason: "
+    "en": "Reason: ",
+    "ro": "Motiv: "
   },
   "discord_content": {
     "de": "Wir haben gerade eine neue Meldung über einen Spieler erhalten",
-    "en": "We just received a new report of a player"
+    "en": "We just received a new report of a player",
+    "ro": "Tocmai am primit un nou raport al unui jucător"
   },
   "suspect_notfound": {
     "de": "Spieler nicht gefunden",
-    "en": "Player not found"
+    "en": "Player not found",
+    "ro": "Jucătorul nu a fost găsit"
   }
 }
