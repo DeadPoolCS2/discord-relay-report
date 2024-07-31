@@ -13,6 +13,8 @@
 - Sync Server Chat via Discord Webhook
 - Report Function via Discord Webhook
 - Custom Config via the `configs/discord-relay-report/config.json`
+- Locates players country and adding a flag by his name (by using an external API)
+
 ## Languages
 
 - German
