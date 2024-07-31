@@ -13,6 +13,11 @@
 - Sync Server Chat via Discord Webhook
 - Report Function via Discord Webhook
 - Custom Config via the `configs/discord-relay-report/config.json`
+## Languages
+
+- German
+- English
+- Romanian (thanks to [DeadPoolCS2](https://github.com/DeadPoolCS2))
 
 ## Requirements 📋
 
