@@ -5,5 +5,12 @@
   "webhookChatync": "",
   "webhookReport": "",
   "imageReport": "",
-  "discordMessage": "We just recived a new report of a suspect"
+  "discordMessage": "We just recived a new report of a suspect",
+  "menucolor": "00B869",
+  "reasons": [
+    "Cheating",
+    "Aimbot",
+    "Wallhack",
+    "Bunnyhop"
+  ]
 }

@@ -73,5 +73,13 @@
     "de": "Spieler nicht gefunden",
     "en": "Player not found",
     "ro": "Jucătorul nu a fost găsit"
+  },
+  "report_someone": {
+    "en": "Report someone",
+    "ro": "Raporteaza pe cineva"
+  },
+  "select_reason": {
+    "en": "Choose a reason for report",
+    "ro": "Selecteaza un motiv pentru report"
   }
 }
