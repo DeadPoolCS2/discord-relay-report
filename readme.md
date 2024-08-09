@@ -19,7 +19,7 @@
 
 - German
 - English
-- Romanian (thanks to [DeadPoolCS2](https://github.com/DeadPoolCS2))
+- Romanian (thanks to [DeadPoolCS2](https://github.com/DeadPoolCS2) and [Blue](https://github.com/blu133721))
 
 ## Requirements 📋
 
@@ -44,7 +44,14 @@ with your configuration
     "webhookChatync": "",
     "webhookReport": "",
     "imageReport": "",
-    "discordMessage": "We just received a new report of a suspect"
+    "discordMessage": "We just received a new report of a suspect",
+    "menucolor": "00B869",
+    "reasons": [
+        "Cheating",
+        "Aimbot",
+        "Wallhack",
+        "Bunnyhop"
+    ]
 }
 ```
 
@@ -64,8 +71,12 @@ with your configuration
 ✦ Special thanks to [@skuzzis](https://github.com/skuzzis) for helping me
 
 ## Contributors
+[@imp87](https://github.com/imp87)
 
-Made by [imp87](https://github.com/imp87)
+[@Blue](https://github.com/blu133721)
+
+[@DeadPoolCS2](https://github.com/DeadPoolCS2)
+
 
 [![Contributors](https://img.shields.io/github/contributors/imp87/discord-relay-report)](https://github.com/imp87/discord-relay-report/graphs/contributors)
 
